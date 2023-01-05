@@ -45,14 +45,17 @@ public class NumberGame {
 
         }
 
-        System.out.println("Please select another number between 1 and 50");
-        System.out.println(userInput.nextLine());
 
-        if (userInput.equals(num)) {
-            System.out.println("Your answer is correct!");
-        } else {
-            System.out.println("Your answer was wrong! GAME OVER!!! The correct answer is " + num );
-        }
+            System.out.println("Please select another number between 1 and 50");
+            System.out.println(userInput.nextLine());
+
+            if (userInput.equals(num)) {
+                System.out.println("Your answer is correct!");
+            } else {
+                System.out.println("Your answer was wrong! GAME OVER!!! The correct answer is " + num);
+            }
+
+
 
     }
 }
